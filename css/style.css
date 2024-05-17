@@ -27,6 +27,10 @@ button {
     padding: 0.1rem 1.5rem;
 }
 
+select {
+    padding: 0.1rem 0.7rem;
+}
+
 main {
     height: 80vh;
     background-color: #7fffd4;
