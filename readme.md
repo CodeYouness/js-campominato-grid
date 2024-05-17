@@ -10,3 +10,15 @@
 - Scriviamo prima cosa vogliamo fare passo passo in italiano, dividiamo il lavoro in micro problemi. 
     - Ad esempio: Di cosa ho bisogno per generare i numeri?
 - Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti. Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+**soluzione (senza bonus)**
+
+- mi collego al contenitore della griglia
+- ripeto queste cose per ogni cella della mia griglia:
+    1. creo una cella
+    2. do una classe alla mia cella
+    3. do il testo interno della cella (il numero sarà lo stesso del numero della ripetizione)
+    4. lo aggiungo al contenitore
+    5. creo un evento per cui al verificarsi del click su una cella deve:
+        - aggiungendogli una classe cambia colore 
+        - dico lo stesso numero che è contenuto nella cella
