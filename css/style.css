@@ -70,9 +70,9 @@ footer {
     height: calc(100% / 9);
 }
 
-.eightcell {
-    width: calc(100% / 8);
-    height: calc(100% / 8);
+.sevencell {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 .bg_blue {
