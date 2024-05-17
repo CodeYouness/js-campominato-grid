@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+    padding-left: 1rem;
+    width: 250px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 0.1rem 1.5rem;
+}
