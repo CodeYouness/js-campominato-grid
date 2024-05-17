@@ -10,5 +10,8 @@ playButton.addEventListener('click', function () {
         cell.classList.add('quadrato')
         cell.append(i)
         Grid.appendChild(cell)
+        cell.addEventListener('click', function () {
+            cell.classList.add('bg_blue')
+        })
     }
 })
