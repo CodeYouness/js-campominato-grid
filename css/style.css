@@ -43,8 +43,8 @@ footer {
 }
 
 .grid {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -53,4 +53,7 @@ footer {
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
