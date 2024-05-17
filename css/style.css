@@ -30,6 +30,9 @@ button {
 main {
     height: 80vh;
     background-color: #7fffd4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
@@ -37,4 +40,17 @@ footer {
     align-items: center;
     height: 7vh;
     padding-left: 1rem;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrato {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
 }
