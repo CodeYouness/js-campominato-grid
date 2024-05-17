@@ -3,7 +3,8 @@
 const Grid = document.querySelector('.grid')
 const playButton = document.querySelector('button')
 
-playButton.addEventListener('toggle', function () {
+playButton.addEventListener('click', function () {
+    Grid.innerHTML = '';
     for (let i = 1; i <= 100; i++) {
         const cell = document.createElement('section')
         cell.classList.add('quadrato')
