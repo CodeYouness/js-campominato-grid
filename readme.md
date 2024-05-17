@@ -39,3 +39,7 @@
             - dico lo stesso numero che è contenuto nella cella
 
     - se è in difficoltà hard allora:
+        - invoco la funzione che come argomenti ha il numero di celle max (81) e le misure delle celle
+
+    - se è in difficoltà crazy allora:
+        - invoco la funzione che come argomenti ha il numero di celle max (49) e le misure delle celle

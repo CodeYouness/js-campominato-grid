@@ -53,13 +53,26 @@ footer {
     flex-wrap: wrap;
 }
 
-.quadrato {
-    width: calc(100% / 10);
-    height: calc(100% / 10);
+.grid>* {
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.tencell {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.ninecell {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.eightcell {
+    width: calc(100% / 8);
+    height: calc(100% / 8);
 }
 
 .bg_blue {
