@@ -1,5 +1,8 @@
-//<section class="quadrato"></section>
+//<section class="tencell"></section>
+//<section class="ninecell"></section>
+//<section class="eightcell"></section>
 
+const selectEl = document.querySelector('select')
 const Grid = document.querySelector('.grid')
 const playButton = document.querySelector('button')
 
@@ -16,6 +19,7 @@ function generateGrid(max, measures) {
         Grid.appendChild(cell)
         cell.addEventListener('click', function () {
             cell.classList.toggle('bg_blue')
+            console.log(i)
         })
     }
 }
