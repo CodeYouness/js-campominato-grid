@@ -6,6 +6,7 @@ const selectEl = document.querySelector('select')
 const Grid = document.querySelector('.grid')
 const playButton = document.querySelector('button')
 
+
 playButton.addEventListener('click', function () {
     Grid.innerHTML = '';
     const selectValue = selectEl.value
@@ -18,19 +19,6 @@ playButton.addEventListener('click', function () {
     }
 })
 
-selectEl.addEventListener('change', function () {
-    playButton.addEventListener('click', function () {
-        Grid.innerHTML = '';
-        const selectValue = selectEl.value
-        if (selectValue === 'easy') {
-            generateGrid(100, 'tencell')
-        } else if (selectValue === 'hard') {
-            generateGrid(81, 'ninecell')
-        } else if (selectValue === 'crazy') {
-            generateGrid(49, 'sevencell')
-        }
-    })
-})
 
 /**
  * 
