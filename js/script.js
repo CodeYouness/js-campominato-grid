@@ -26,7 +26,6 @@ playButton.addEventListener('click', function () {
  * @param {*} measures class for the width and height of every cell 
  */
 function generateGrid(max, measures) {
-    Grid.innerHTML = '';
     for (let i = 1; i <= max; i++) {
         const cell = document.createElement('section')
         cell.classList.add(measures)
